@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_set_event_list"
-        android:name="com.example.avta.ui.SetEventListFragment"
+        android:name="com.exaphis.avta.fragments.SetEventListFragment"
         android:label="@string/menu_set_event_list"
         tools:layout="@layout/fragment_set_event_list" />
 
     <fragment
         android:id="@+id/nav_movable_event_list"
-        android:name="com.example.avta.ui.MovableEventListFragment"
+        android:name="com.exaphis.avta.fragments.MovableEventListFragment"
         android:label="@string/menu_movable_event_list"
         tools:layout="@layout/fragment_movable_event_list" />
 
     <fragment
         android:id="@+id/nav_week_view"
-        android:name="com.example.avta.ui.WeekViewFragment"
+        android:name="com.exaphis.avta.fragments.WeekViewFragment"
         android:label="@string/menu_week_view"
         tools:layout="@layout/fragment_week_view" />
 </navigation>
